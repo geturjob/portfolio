@@ -1,0 +1,63 @@
+.projectImg{
+    height: 50vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide{
+    width: 100%;
+    height: 50vh;
+    display: inline-block;
+    object-fit: contain;
+    object-position: center;
+}
+
+.projectImg:hover{
+    /* transform: scale(1.06); */
+}
+
+.projectImg:hover .nextBtn{
+    opacity: 1;
+}
+
+.projectImg:hover .previousBtn{
+    opacity: 1;
+}
+
+.slider{
+    white-space: nowrap;
+    transition: ease 1500ms;
+}
+
+.previousBtn, .nextBtn{
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    width: auto;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.4s ease;
+    z-index: 11;
+    border: none;
+    background-color: var(--primaryColor);
+    opacity: 0;
+    color: var(--oppColor);
+}
+
+.previousBtn{
+    left: 10px;
+}
+
+.nextBtn{
+    right: 10px;
+}
+
+.previousBtn:hover, .nextBtn:hover{
+    color: turquoise;
+}
+
+@media (max-width:500px) {
+    .project{
+        display: inline-block;
+    }
+}

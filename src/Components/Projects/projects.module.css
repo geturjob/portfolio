@@ -1,0 +1,98 @@
+.projectcon{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+.projectconsec{
+    
+}
+.project{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-bottom: 40px;
+    box-shadow: 0 3px 8px black;
+}
+.projectIntro{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    padding:20px;
+    box-sizing: border-box;
+}
+
+.project:nth-child(even) div{
+    order: 2;
+}
+
+.project:nth-child(even) section{
+    background-color:white;
+}
+
+.project:nth-child(even){
+    grid-template-columns: 2fr 1fr;
+}
+
+.project>section{
+    padding:1rem;
+    box-sizing: border-box;
+    background-color:#eee;
+}
+.btn{
+    display: inline-block;
+}
+
+.btn1{
+    padding: 5px;
+    margin-right: 6px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(6, 6, 150);
+}
+
+.btn2{
+    padding: 5px;
+    margin-left: 6px;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(6, 6, 150);
+}
+
+.btn2>a{
+    color: blueviolet;
+}
+
+.btn1>a{
+    color: blueviolet;
+}
+
+.btn1>a:hover{
+    color:var(--colorOnHover);
+    
+}
+
+.btn2>a:hover{
+    color: var(--colorOnHover);
+    
+}
+.btn2>a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn1>a{
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media (max-width:1000px) {
+    .project{
+        display: inline-block;
+    }
+}

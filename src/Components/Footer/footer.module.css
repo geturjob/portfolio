@@ -1,0 +1,51 @@
+.footer{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    padding: 2px 20px 10px 20px;
+    align-items: left;
+    margin-left: auto;
+    background-color: transparent;
+    position: fixed;
+    bottom: 0px;
+}
+
+.icondiv{
+    padding: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.upArraow{
+    position: fixed;
+    right: 5px;
+    bottom: 10px;
+}
+.gmaildiv{
+    width:50px;
+    display:flex;
+    transition: display 1s;
+    box-sizing:border-box;
+    border-radius:10px;
+    padding:0px 5px 3px 5px;
+}
+
+/* .gmaildiv>i{
+    width:36px
+}
+
+.gmaildiv>p{
+    flex:1;
+    display:none;
+    margin:auto;
+    font-size:20px;
+}
+
+.gmaildiv:hover{
+    width:150px;
+    background-color:green;
+}
+
+.gmaildiv:hover p{
+    display:block;
+} */

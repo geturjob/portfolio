@@ -1,0 +1,26 @@
+.navbar{
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    font-family: Monospace;
+    box-sizing: border-box;
+}
+
+.navbar h3>a{
+    text-decoration: none;
+    color: var(--secondaryColor);
+}
+
+.navbar h3:hover{
+    color: rgb(35, 35, 223);
+    border-bottom: 1px solid rgb(35, 35, 223);
+    cursor: pointer;
+}
+
+.navbar h3>a:hover{
+    color: rgb(35, 35, 223);
+    border-bottom: 1px solid rgb(35, 35, 223);
+    cursor: pointer;
+}

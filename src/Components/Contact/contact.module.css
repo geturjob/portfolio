@@ -1,0 +1,149 @@
+.contactSection{
+    display: flex;
+    justify-content: center;
+    padding: 5px 20px 20px 20px;
+    box-sizing: border-box;
+}
+
+.infodiv{
+    width: 30%;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contactDiv>h1{
+    font-size: 50px;
+    opacity: 0.8;
+}
+
+.contactDiv>h4{
+    color: var(--oppColor);
+}
+
+.addressDiv>h1{
+    opacity: 0.8;
+}
+
+.addressDiv>h4{
+    color: var(--oppColor);
+}
+
+.inputsDiv{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 8px black;
+
+}
+
+.email>h1:hover, .linkedIn>a:hover, .instagram>a:hover{
+    color: var(--colorOnHover);
+}
+.email>h1{
+    color:var(--oppColor);
+    cursor: pointer;
+}
+.linkedIn>a{
+    color: var(--oppColor);
+    cursor: pointer;
+}
+.instagram>a{
+    color: var(--oppColor);
+    cursor: pointer;
+}
+
+.inputDiv{
+    width: 50%;
+    text-align: left;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 16px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    opacity: 0.7;
+}
+
+input{
+    outline: 0;
+    border: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.671);
+    /* border-radius: 5px; */
+    font-size: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.589);
+}
+
+input:focus{
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.452);
+}
+
+.button{
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: transparent;
+    border:0;
+    margin-top: 20px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.button:hover{
+    cursor: pointer;
+    box-shadow: 0 2px 8px #00000073;
+    opacity: 1;
+}
+
+.successMsg{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: rgb(194, 191, 191);
+}
+
+@media (max-width:900px) {
+    .contactSection{
+        flex-direction: column;
+        margin-bottom: 4px;
+    }
+    .infodiv{
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        padding: 2px;
+    }
+
+    .inputsDiv{
+        width: 100%;
+    }
+
+    .contactDiv>h1{
+        font-size: 20px;
+        opacity: 0.8;
+    }
+    
+    .addressDiv{
+        display: none;
+    }
+    .inputDiv{
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .contactSection{
+        margin-bottom: 50px;
+    }
+}

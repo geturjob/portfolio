@@ -1,0 +1,62 @@
+.skillscon{
+  display: flex;
+  box-sizing: border-box;
+  background-color:#eee;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skillscon1{
+  width: 100%;
+  display: flex;
+  padding: 1rem;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skillscon2{
+  width: 250px;
+  height: 220px;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  padding-bottom: 20px;
+  margin-left: 2px;
+  flex-direction: column;
+  background-color: var(--oppColor);
+  box-shadow: 0 2px 8px rgb(189, 187, 187);
+  margin-bottom: 2rem;
+}
+
+.skillscon2:hover{
+  transform: scale(1.06);
+}
+.skillDiv{
+  width: 100%;
+  height: 80%;
+  background-size:auto;
+}
+
+.skillDiv>h2{
+  opacity: 0.8;
+}
+
+.levelCon{
+  flex: 1;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color:var(--oppColor) ;
+}
+
+.levelIndicator{
+  width: 100%;
+  background-color: rgb(129, 225, 65);
+  border-radius: 10px;
+}
+
+.innerLevel{
+  background-color: rgb(23, 110, 30);
+  border-radius: 10px;
+}
